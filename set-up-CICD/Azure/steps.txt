@@ -1,3 +1,5 @@
+demo-video: https://www.youtube.com/watch?v=lC5c7MyA_Fg&ab_channel=BestITCourses
+
 Setting up a CI/CD pipeline for a project in Azure DevOps involves configuring both a Continuous Integration (CI) pipeline and a Continuous Deployment (CD) pipeline.
 1. Create an Azure DevOps Project and Repository:
 Create an Organization and Project:
