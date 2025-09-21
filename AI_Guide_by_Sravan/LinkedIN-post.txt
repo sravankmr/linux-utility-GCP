@@ -1,0 +1,11 @@
+🚀 Just created a comprehensive guide on AI Roles in DevOps! 
+
+From current MLOps engineers to emerging AI-SRE roles, this interactive guide covers:
+- Current AI roles transforming DevOps
+- Emerging opportunities in the field  
+- Must-have roles for modern teams
+- Detailed career progression paths
+
+Check out the full interactive guide: https://sravankmr.github.io/ai_devops_roles/
+
+#DevOps #AI #MLOps #TechCareers #CloudEngineering
