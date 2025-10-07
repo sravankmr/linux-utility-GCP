@@ -1,0 +1,22 @@
+🚀 Install and Bootstrap a High-Availability Kubernetes Cluster with Ansible
+
+As a Platform Engineer, I wanted a fast, reproducible way to deploy a fully functional HA Kubernetes cluster across multiple VMs. No more manual setup or inconsistent environments—just one command to get everything running.
+Using Ansible, I automated:
+🔹 kubeadm init with controlled configuration (CIDRs, load balancer)
+🔹 Automatic master & worker node joins
+🔹 Core components: Cilium (CNI), Ingress-NGINX, Cert-Manager, OpenEBS
+🔹 Local kubeconfig ready for kubectl and CI/CD pipelines
+
+Why this matters:
+✅ Fast, consistent HA clusters for dev & QA
+✅ Standardized networking, ingress, certificates, and storage
+✅ Idempotent and re-runnable—safe to redeploy anytime
+✅ Simplified onboarding: one doc + one command
+
+This setup drastically reduces lead time for new environments while keeping everything predictable and versioned.
+
+📂 Check out the playbooks and instructions on GitHub: https://lnkd.in/eWHpVrBb
+📽️ Watch Demo: https://lnkd.in/egFj_iuA [https://www.youtube.com/watch?v=5kTSEVWyXw4&t=455s]
+
+👇 If this is useful, hit ‘Like’ and share your thoughts or questions!”
+hashtag#CKA hashtag#CKS hashtag#CKAD hashtag#Kubestraunaute hashtag#Kubernetes hashtag#Ansible hashtag#HACluster hashtag#Cilium hashtag#IngressNGINX hashtag#CertManager hashtag#OpenEBS hashtag#DevOps hashtag#PlatformEngineering
