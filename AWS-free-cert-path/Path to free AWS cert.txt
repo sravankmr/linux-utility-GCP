@@ -13,12 +13,12 @@ Complete activities like tutorials and quizzes to earn points:
 4,500 points = Foundational certification voucher
 5,200 points = Associate-level certification voucher
 
-💡 You'll earn ~2,000 points on Day 1 and 360 points weekly
+💡 You'll earn ~1,200 points on Day 1 and 360 points weekly
 Step 5: Complete AWS Exam Prep
 Finish an AWS Skill Builder course and pass the practice exam
 Step 6: Claim Your Free Voucher!
 Redeem your points for a certification exam voucher
-⏱️ Time Investment: 45-60 days, just 10-15 minutes per day
+⏱️ Time Investment: 40-60 days, just 10-15 minutes per day
 This is completely legitimate and offered directly by AWS. Perfect for students, career changers, or anyone looking to break into cloud computing!
 Have you tried this program? Share your experience below! 👇
 #AWS #CloudComputing #FreeCertification #CareerDevelopment #TechCareers #AWSCertification #CloudSkills #LearningAndDevelopment
