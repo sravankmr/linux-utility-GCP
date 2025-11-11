@@ -1,0 +1,23 @@
+Everyone says ALB is cheaper than API Gateway at scale.
+That’s true… until it isn’t!
+
+It's always important to consider the specific cost dimensions of a service.
+
+At scale, services that charge by uptime (like ALB) are usually more cost-efficient than services that only charge for usage (like API Gateway).
+
+For example, at 1000 TPS and a small payload (~1KB per request):
+* ALB: ~$246/month
+* API Gateway REST API: ~$9072/month
+* API Gateway HTTP API: ~$2592/month
+
+But what if you’re handling large payloads (e.g. 1MB per request)?
+
+Well, one of ALB's cost dimensions is "Processed bytes". So the more data going through your load balancer, the higher the LCU (load-balancer capacity unit) units.
+
+So, at an average of 1MB per request, ALB costs much more than API Gateway!
+
+Always check which dimensions will drive your cost - uptime, request count, data processed, storage, etc.
+
+The AWS Calculator (https://calculator.aws) exists for a reason, it can save you from a very expensive surprise later.
+
+I honestly believe that so many costly mistakes in AWS can be avoided if we spend a little more time thinking through our solution and its costs.
