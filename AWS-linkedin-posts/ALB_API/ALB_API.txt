@@ -21,3 +21,25 @@ Always check which dimensions will drive your cost - uptime, request count, data
 The AWS Calculator (https://calculator.aws) exists for a reason, it can save you from a very expensive surprise later.
 
 I honestly believe that so many costly mistakes in AWS can be avoided if we spend a little more time thinking through our solution and its costs.
+
+----------------------------------------------------------------------------------------------------
+
+🚀 Smarter Deployments with AWS ALB Weighted Target Groups
+
+One of my favorite features in the AWS Application Load Balancer is the ability to distribute traffic between multiple target groups using weights.
+
+Instead of setting up complex routing logic or spinning up separate load balancers, you can simply assign traffic weights — for example:
+ • 🟩 90% of requests to your production target group
+ • 🟦 10% to your new version target group
+
+That’s it, no DNS updates, no downtime, and you can adjust traffic distribution on the fly through the console, CLI, or Infrastructure-as-Code tools like Terraform or CloudFormation.
+
+💡 Why it’s valuable:
+ • Perfect for blue/green or canary deployments
+ • Ideal for gradual migrations (e.g., EC2 → ECS/Fargate)
+ • Helps teams test in production safely, with fast rollback if needed
+
+This feature often flies under the radar, but it’s a game-changer for teams that want zero-downtime releases and controlled risk.
+
+👉 Have you used ALB traffic weighting in your deployments?
+I’d love to hear how it worked for you or what strategy you use for safe rollouts.
