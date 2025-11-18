@@ -1,3 +1,60 @@
+💸 Plot twist: The "cheaper" option just cost me 37x more.
+
+💡 "Let's use ALB — it's way cheaper than API Gateway at scale."
+
+I almost hit "approve" on that architecture decision.
+Then something made me pause: "Cheaper for WHO, exactly?"
+
+Here's what could've happened:
+Our use case: 1000 requests/second processing ~1MB vs ~1KB payloads (image uploads, document vs message, text transfers).
+If I hadn't opened the AWS Calculator first, we would've walked straight into a trap.
+
+ALB pricing looks attractive... until you see "Processed bytes"
+At 1MB per request, those LCU units multiply FAST
+What seemed like a cost-saving move would've cost us 37x more than API Gateway
+
+That 15-minute calculation saved us from a very awkward conversation with finance.
+
+The real lesson?
+
+"Best practices" aren't universal. They're context-dependent.
+
+Before blindly following "X is always cheaper than Y":
+
+1️⃣ Open https://calculator.aws (it exists for a reason)
+2️⃣ Plug in YOUR actual numbers — not generic benchmarks
+3️⃣ Identify which cost dimension dominates: requests? bytes? uptime? storage?
+
+For our scenario:
+✅ API Gateway's per-request model = predictable costs
+❌ ALB's byte-processing charges = bill shock waiting to happen
+
+That said — ALB absolutely has its place.
+
+For lower-payload, high-volume workloads, it's brilliant. And if you DO use it, don't overlook weighted target groups:
+
+Deploy canary releases (90% stable, 10% new version)
+Zero-downtime migrations between environments
+Instant traffic adjustments without DNS changes
+
+Just know your traffic profile first.
+
+💬 To my fellow cloud architects: What's a "conventional wisdom" decision you almost made before the data said otherwise?
+
+Sometimes the best architecture decisions are the ones we DON'T make. 👇
+
+#AWS #CloudArchitecture #CostOptimization #DevOps #CloudEngineering #SmartDecisions
+
+
+
+
+
+
+
+
+
+
+
 Everyone says ALB is cheaper than API Gateway at scale.
 That’s true… until it isn’t!
 
