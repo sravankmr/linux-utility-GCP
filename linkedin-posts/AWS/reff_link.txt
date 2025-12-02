@@ -6,3 +6,6 @@ https://www.linkedin.com/posts/juliangarrido_aws-alb-cloudarchitecture-activity-
 --------------------
 How to design secure API:
 https://www.linkedin.com/posts/nikkisiapno_how-do-we-design-secure-and-safe-apis-the-activity-7383835667375718400-0e7K?utm_source=share&utm_medium=member_desktop&rcm=ACoAABWQdigBxVMrFpKnUwM3dWlqaiQAq3ho55Y
+
+API Gateway vs Load Balancer vs Reverse Proxy: 
+https://www.linkedin.com/posts/nikkisiapno_api-gateway-vs-load-balancer-vs-reverse-proxy-activity-7394360055401390080-KOKW?utm_source=share&utm_medium=member_desktop&rcm=ACoAABWQdigBxVMrFpKnUwM3dWlqaiQAq3ho55Y
