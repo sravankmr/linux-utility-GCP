@@ -1,3 +1,5 @@
+Reff: https://www.youtube.com/watch?v=ilgpzlE7Hds&list=PLkGgF5-rBAbi4c4LbVExbh62S_kcGjVHb
+
 4 Surprising Truths About Multi-Region Cloud Architecture
 
 Introduction: The Myth of the Magic Bullet
