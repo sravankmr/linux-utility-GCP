@@ -1,0 +1,38 @@
+
+
+------------------------------------
+
+The presentation describes an active-passive pattern where minimal infrastructure is deployed in the standby region, and compute resources are only scaled up during a failover. What is this pattern called?
+
+A.
+Pilot Light
+Right answer
+The Pilot Light pattern involves replicating data and having the core infrastructure configuration ready, but compute resources are launched and scaled out only when a failover is initiated.
+
+B.
+Regional Sharding
+
+C.
+Warm Standby
+Not quite
+A Warm Standby has a scaled-down but running version of the application ready, which is more than the minimal infrastructure described.
+
+D.
+Active Hot Standby
+
+-------------------------------------------------------
+According to John Fermento, what is the most challenging part of implementing a multi-region architecture?
+
+A.
+Handling data synchronization and consistency.
+That's right!
+The speaker explicitly states that data is the most challenging part, referencing the CAP theorem and the trade-offs between consistency and availability.
+
+B.
+Deploying code simultaneously to both regions.
+
+C.
+Managing service quotas across regions.
+
+D.
+Choosing the correct failover mechanism.
