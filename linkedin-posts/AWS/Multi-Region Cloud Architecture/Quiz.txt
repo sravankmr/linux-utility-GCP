@@ -1,5 +1,3 @@
-
-
 ------------------------------------
 
 The presentation describes an active-passive pattern where minimal infrastructure is deployed in the standby region, and compute resources are only scaled up during a failover. What is this pattern called?
