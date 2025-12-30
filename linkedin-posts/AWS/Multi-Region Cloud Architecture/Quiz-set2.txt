@@ -1,0 +1,44 @@
+Building on our previous discussion, here are additional poll and quiz questions based on the technical and strategic insights from the sources:
+Poll 3: Deployment Strategies & Shared Fate
+Question: When managing a multi-region workload, what is the safest way to handle application updates?
+• A) Deploy to both regions simultaneously to ensure parity.
+• B) Use a global pipeline that updates both regions in one "push."
+• C) Update the primary region first, allow "bake time," then update the secondary .
+• D) Only update the primary; the secondary should stay on a "frozen" stable version.
+Correct Answer/Insight: C) Update the primary first, allow "bake time," then update the secondary. Why? To minimize correlated or shared fate, you should never deploy to both regions at once . By allowing the code to "bake" in the primary region and accept normal traffic first, you ensure the update is healthy before moving it to your backup environment .
+
+--------------------------------------------------------------------------------
+Quiz 3: Active-Active "Dual Writes"
+Question: If an application is designed to write to two regions simultaneously from the client side (Dual Writes), what is the primary engineering challenge?
+• A) Managing data atomicity (ensuring the write succeeds in both or fails in both) .
+• B) Reducing infrastructure costs.
+• C) Eliminating the need for a database.
+• D) Increasing the speed of the primary region's reads.
+Correct Answer: A) Managing data atomicity. Insight: In this pattern, the complexity of ensuring data consistency moves from the database to the application logic . Developers must also account for idempotency, ensuring that if a client retries a transaction, the server-side code can handle it without creating duplicate data .
+
+--------------------------------------------------------------------------------
+Poll 4: Testing & "Follow the Sun"
+Question: Vanguard uses a "Follow the Sun" model. What is the biggest operational advantage of this approach?
+• A) It reduces the need for developers in different time zones.
+• B) It ensures the failover mechanism is tested multiple times a day as part of normal operations .
+• C) It allows them to use cheaper spot instances in the US.
+• D) It eliminates the need for any data replication.
+Correct Answer/Insight: B) It ensures the failover mechanism is tested multiple times a day. Why? Because the "primary" region shifts as traders wake up around the globe, the system is constantly exercising its ability to move state and rights . This turns a "Disaster Recovery" event into a standard operating procedure, providing high confidence that the system will work when needed .
+
+--------------------------------------------------------------------------------
+Quiz 4: Networking & Routing
+Question: Which AWS service can help reduce latency by traversing the AWS global backbone and provides fine-grained control to "dial" traffic up or down between regions?
+• A) Route 53 standard DNS.
+• B) AWS Global Accelerator .
+• C) AWS Snowball.
+• D) Amazon S3 Multi-Region Access Points.
+Correct Answer: B) AWS Global Accelerator. Insight: Unlike standard DNS, Global Accelerator uses the AWS backbone to reach different regions quickly and allows for very precise traffic distribution (dialing traffic up or down) across regional endpoints .
+
+--------------------------------------------------------------------------------
+Poll 5: The "Decision" to Failover
+Question: Beyond automation, what is the most critical component of an effective failover strategy?
+• A) Having the fastest possible internet connection.
+• B) A clear decision framework defining who can trigger it and when .
+• C) Hardcoding the failover trigger into the application.
+• D) Ensuring all developers have root access to the database.
+Correct Answer/Insight: B) A clear decision framework. Why? Organizations must define the specific criteria and select individuals authorized to make the call to failover . Without a clear framework, teams may hesitate during an actual event, leading to longer downtime than the technology would otherwise allow .
