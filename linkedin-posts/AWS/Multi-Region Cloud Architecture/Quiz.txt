@@ -13,7 +13,7 @@ Here are several quiz and poll questions based on the sources that you can use f
 **Correct Answer/Insight:** **B) Maximize single-region resilience first.**
 **Why?** The sources emphasize that multi-region is not a "magic button" and you can do a significant amount of work to improve resiliency within a single region before taking on the complexity of multiple regions. Multi-region is an extreme use case that should be driven by specific business requirements, such as irreversible brand damage or massive revenue loss.
 
----
+---Done ^
 
 ### **Quiz 1: Data & The CAP Theorem**
 **Question:** When using **synchronous replication** across regions to ensure data consistency, what is the primary trade-off?
