@@ -103,7 +103,7 @@ A Warm Standby has a scaled-down but running version of the application ready, w
 D.
 Active Hot Standby
 
--------------------------------------------------------
+------------------------------------------------------- Done ^
 According to John Fermento, what is the most challenging part of implementing a multi-region architecture?
 
 A.
