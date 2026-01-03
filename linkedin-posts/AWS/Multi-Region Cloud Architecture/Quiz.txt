@@ -25,7 +25,7 @@ Here are several quiz and poll questions based on the sources that you can use f
 **Correct Answer:** **B) Increased application latency and potential "shared fate."**
 **Insight:** Synchronous replication requires a transaction to be committed in both the primary and standby regions before acknowledging it to the client. This introduces "orders of magnitude" more latency and creates a **shared fate**—if replication is broken, the application may become unavailable to the client because it cannot complete the write to both locations.
 
----
+--- Done ^
 
 ### **Poll 2: Operational Readiness**
 **Question:** True or False: "An untested Disaster Recovery (DR) strategy is not a DR strategy."
