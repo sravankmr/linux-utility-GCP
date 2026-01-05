@@ -35,7 +35,7 @@ Here are several quiz and poll questions based on the sources that you can use f
 **Correct Answer/Insight:** **A) True.**
 **Why?** According to the sources, organizations must move beyond theoretical plans and **actively test** their failover implementations. Some companies, like Vanguard, use a "Follow the Sun" model that effectively tests their regional switching **three times a day** as part of standard operations, ensuring they can be confident the system works when needed.
 
----
+--- Done^
 
 ### **Quiz 2: Architectural Patterns**
 **Question:** In a **"Pilot Light"** multi-region pattern, what is the state of the secondary region?
