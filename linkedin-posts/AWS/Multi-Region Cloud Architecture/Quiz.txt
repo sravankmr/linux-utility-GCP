@@ -47,7 +47,7 @@ Here are several quiz and poll questions based on the sources that you can use f
 **Correct Answer:** **C) It has data, configuration, and code available, but compute resources are only scaled up during failover.**
 **Insight:** This is a cost-effective middle ground between "Backup and Restore" and "Active-Hot Standby". You keep the "core" of the application ready (the pilot light), but you don't pay for full compute capacity until it is actually needed.
 
----
+--- Done^
 
 ### **Poll 3: Dependency Management**
 **Question:** What is the biggest risk of having an application in Region B depend on a service endpoint located only in Region A?
@@ -59,7 +59,7 @@ Here are several quiz and poll questions based on the sources that you can use f
 **Correct Answer/Insight:** **C) Creating a "Shared Fate" that defeats the purpose of multi-region.**
 **Why?** The goal of multi-region architecture is to create **isolated stacks**. If your secondary region depends on the primary region to function (for authentication, third-party endpoints, or failover triggers), a failure in the primary region will take down the secondary region as well.
 
----
+--- Done^
 
 **Analogy for your LinkedIn post:**
 Building a multi-region architecture without first maximizing single-region resilience is like **buying a second car because you’re afraid the first one will break down, but never changing the oil in either.** It’s better to maintain and reinforce your primary vehicle before doubling your costs and maintenance effort.
