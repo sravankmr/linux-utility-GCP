@@ -1,0 +1,37 @@
+2. What happens to ACLs (Access Control Lists) by default in S3? (8 points)
+Correct
+
+
+They are always enabled
+They are disabled and Object Ownership is set to Bucket owner enforced [Correct]
+They can only be used with vector buckets
+They are only available in certain regions
+
+3. Which does S3 provide for PUT and DELETE requests? (8 points)
+Correct
+
+
+Weak consistency
+Eventually consistency
+Strong read-after-write consistency [Correct]
+No consistency guarantee
+
+4. Which feature allows you to keep multiple versions of an object in the same bucket? (8 points)
+Correct
+
+
+S3 Lifecycle
+S3 Object Lock
+S3 Replication
+S3 Versioning [Correct]
+
+5. What unique identifier is used for objects within a bucket? (8 points)
+Correct
+
+
+Bucket name
+Object key [Correct]
+Version ID
+Region ID
+
+
