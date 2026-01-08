@@ -7,7 +7,7 @@ Question: When managing a multi-region workload, what is the safest way to handl
 • D) Only update the primary; the secondary should stay on a "frozen" stable version.
 Correct Answer/Insight: C) Update the primary first, allow "bake time," then update the secondary. Why? To minimize correlated or shared fate, you should never deploy to both regions at once . By allowing the code to "bake" in the primary region and accept normal traffic first, you ensure the update is healthy before moving it to your backup environment .
 
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------- Done^
 Quiz 3: Active-Active "Dual Writes"
 Question: If an application is designed to write to two regions simultaneously from the client side (Dual Writes), what is the primary engineering challenge?
 • A) Managing data atomicity (ensuring the write succeeds in both or fails in both) .
