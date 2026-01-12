@@ -16,7 +16,7 @@ Question: If an application is designed to write to two regions simultaneously f
 • D) Increasing the speed of the primary region's reads.
 Correct Answer: A) Managing data atomicity. Insight: In this pattern, the complexity of ensuring data consistency moves from the database to the application logic . Developers must also account for idempotency, ensuring that if a client retries a transaction, the server-side code can handle it without creating duplicate data .
 
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------Done^
 Poll 4: Testing & "Follow the Sun"
 Question: Vanguard uses a "Follow the Sun" model. What is the biggest operational advantage of this approach?
 • A) It reduces the need for developers in different time zones.
