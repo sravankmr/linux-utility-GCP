@@ -1,3 +1,17 @@
+Which of the following is NOT a main component of the control plane?
+
+A. etcd
+B. cloud-controller-manager [Correct]
+C. kube-scheduler
+D. kube-apiserver
+
+B
+Correct!
+While the cloud-controller-manager is an important component for cloud integration, it's not one of the main control plane components. The main components are kube-apiserver (which handles all API operations), etcd (the cluster's database storing all cluster state), kube-scheduler (responsible for scheduling pods on nodes), and kube-controller-manager (runs controller processes). The cloud-controller-manager is an optional component that's only needed when running in cloud environments to interface with cloud provider APIs. This knowledge is crucial for understanding the fundamental architecture of Kubernetes and how it manages cluster operations.
+
+----------------------------------------------------
+
+
 2. What happens to ACLs (Access Control Lists) by default in S3? (8 points)
 Correct
 
