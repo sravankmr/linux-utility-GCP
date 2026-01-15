@@ -25,7 +25,7 @@ Question: Vanguard uses a "Follow the Sun" model. What is the biggest operationa
 • D) It eliminates the need for any data replication.
 Correct Answer/Insight: B) It ensures the failover mechanism is tested multiple times a day. Why? Because the "primary" region shifts as traders wake up around the globe, the system is constantly exercising its ability to move state and rights . This turns a "Disaster Recovery" event into a standard operating procedure, providing high confidence that the system will work when needed .
 
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------Done^
 Quiz 4: Networking & Routing
 Question: Which AWS service can help reduce latency by traversing the AWS global backbone and provides fine-grained control to "dial" traffic up or down between regions?
 • A) Route 53 standard DNS.
