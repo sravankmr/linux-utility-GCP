@@ -34,7 +34,7 @@ Question: Which AWS service can help reduce latency by traversing the AWS global
 • D) Amazon S3 Multi-Region Access Points.
 Correct Answer: B) AWS Global Accelerator. Insight: Unlike standard DNS, Global Accelerator uses the AWS backbone to reach different regions quickly and allows for very precise traffic distribution (dialing traffic up or down) across regional endpoints .
 
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------Done^
 Poll 5: The "Decision" to Failover
 Question: Beyond automation, what is the most critical component of an effective failover strategy?
 • A) Having the fastest possible internet connection.
@@ -42,3 +42,4 @@ Question: Beyond automation, what is the most critical component of an effective
 • C) Hardcoding the failover trigger into the application.
 • D) Ensuring all developers have root access to the database.
 Correct Answer/Insight: B) A clear decision framework. Why? Organizations must define the specific criteria and select individuals authorized to make the call to failover . Without a clear framework, teams may hesitate during an actual event, leading to longer downtime than the technology would otherwise allow .
+--------------------------------------------------------------------------------Done^
