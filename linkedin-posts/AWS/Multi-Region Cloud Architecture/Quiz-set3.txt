@@ -9,7 +9,7 @@ B
 Correct!
 While the cloud-controller-manager is an important component for cloud integration, it's not one of the main control plane components. The main components are kube-apiserver (which handles all API operations), etcd (the cluster's database storing all cluster state), kube-scheduler (responsible for scheduling pods on nodes), and kube-controller-manager (runs controller processes). The cloud-controller-manager is an optional component that's only needed when running in cloud environments to interface with cloud provider APIs. This knowledge is crucial for understanding the fundamental architecture of Kubernetes and how it manages cluster operations.
 
-----------------------------------------------------
+----------------------------------------------------Done^
 
 
 2. What happens to ACLs (Access Control Lists) by default in S3? (8 points)
@@ -21,6 +21,8 @@ They are disabled and Object Ownership is set to Bucket owner enforced [Correct]
 They can only be used with vector buckets
 They are only available in certain regions
 
+---------------------------------------------------
+
 3. Which does S3 provide for PUT and DELETE requests? (8 points)
 Correct
 
@@ -30,6 +32,8 @@ Eventually consistency
 Strong read-after-write consistency [Correct]
 No consistency guarantee
 
+-------------------------------------------------------
+
 4. Which feature allows you to keep multiple versions of an object in the same bucket? (8 points)
 Correct
 
@@ -38,6 +42,8 @@ S3 Lifecycle
 S3 Object Lock
 S3 Replication
 S3 Versioning [Correct]
+
+-------------------------------------------------------
 
 5. What unique identifier is used for objects within a bucket? (8 points)
 Correct
@@ -62,6 +68,8 @@ Nearly half a million [correct]
 
 Five
 
+------------------------------------------------
+
 2. What is unique about an UltraServer in Project Rainier? (8 points)
 
 It operates completely independently
@@ -71,6 +79,8 @@ It combines four physical Trainium2 servers with 16 chips each [correct]
 It uses standard network switches
 
 It only uses wireless connections
+
+----------------------------------------------------
 
 3. What is a distinctive feature of NeuronLinks? (8 points)
 
@@ -82,6 +92,8 @@ They are wireless connections
 
 They only connect to external networks
 
+---------------------------------------------------
+
 4. What is AWS's water usage efficiency? (8 points)
 
 0.375 liters per kilowatt-hour
@@ -91,6 +103,8 @@ They only connect to external networks
 0.50 liters per kilowatt-hour
 
 1.0 liters per kilowatt-hour
+
+--------------------------------------------------------------
 
 
 5. How many Trainium2 chips are in a single UltraServer? (8 points)
