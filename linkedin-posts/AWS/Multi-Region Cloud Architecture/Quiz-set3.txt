@@ -21,7 +21,7 @@ They are disabled and Object Ownership is set to Bucket owner enforced [Correct]
 They can only be used with vector buckets
 They are only available in certain regions
 
----------------------------------------------------
+----------------------------------------------------Done^
 
 3. Which does S3 provide for PUT and DELETE requests? (8 points)
 Correct
