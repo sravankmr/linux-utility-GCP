@@ -32,7 +32,7 @@ Eventually consistency
 Strong read-after-write consistency [Correct]
 No consistency guarantee
 
--------------------------------------------------------
+-------------------------------------------------------Done^
 
 4. Which feature allows you to keep multiple versions of an object in the same bucket? (8 points)
 Correct
