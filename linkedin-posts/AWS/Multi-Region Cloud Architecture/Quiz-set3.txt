@@ -53,7 +53,7 @@ Object key [Correct]
 Version ID
 Region ID
 
--------------------------------------
+-------------------------------------Done^
 
 
 Reff: https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster 
