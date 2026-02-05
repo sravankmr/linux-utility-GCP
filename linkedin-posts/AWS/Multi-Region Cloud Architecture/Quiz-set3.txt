@@ -68,7 +68,7 @@ Nearly half a million [correct]
 
 Five
 
-------------------------------------------------
+------------------------------------------------Done^
 
 2. What is unique about an UltraServer in Project Rainier? (8 points)
 
@@ -80,7 +80,7 @@ It uses standard network switches
 
 It only uses wireless connections
 
-----------------------------------------------------
+----------------------------------------------------Done^
 
 3. What is a distinctive feature of NeuronLinks? (8 points)
 
@@ -92,7 +92,8 @@ They are wireless connections
 
 They only connect to external networks
 
----------------------------------------------------
+---------------------------------------------------Done^
+For KT: https://lnkd.in/eYrNskNz
 
 4. What is AWS's water usage efficiency? (8 points)
 
@@ -117,4 +118,66 @@ They only connect to external networks
 
 64 chips [correct]
 
+--------------------------------------------------------------------------------------------
+
+What does the principle of "least privilege access" mean in the context of S3 security? (8 points)
+
+Granting all users read-only access
+
+Granting only the permissions required to perform a task [correct]
+
+Denying all access by default
+
+Allowing access only through VPC endpoints
+
+------------------------------------------------------------------------------
+
+Which encryption option is the default for all new objects uploaded to S3 buckets? (8 points)
+
+SSE-C (Server-side encryption with customer-provided keys)
+
+SSE-KMS (Server-side encryption with AWS KMS keys)
+
+Client-side encryption
+
+SSE-S3 (Server-side encryption with Amazon S3 managed keys) [correct]
+
+--------------------------------------------------------
+
+. Which AWS service provides a "Write Once Read Many" (WORM) model to help prevent accidental or inappropriate deletion of data? (8 points)
+
+S3 Versioning
+
+S3 Glacier
+
+S3 Object Lock [correct]
+
+S3 Lifecycle policies
+
+--------------------------------------------------
+5. Which managed AWS security service uses machine learning to discover sensitive data personally identifiable information (PII) in S3 buckets? (8 points)
+
+Amazon GuardDuty
+
+Amazon Macie [correct]
+
+AWS Security Hub
+
+Amazon Detective
+
+-------------------------------------------
+1. Which is the primary purpose of the Blue Jay robotics system? (10 points)
+
+To replace human workers entirely
+To handle customer service inquiries
+To manage inventory tracking only
+To coordinate multiple arms for picking, stowing, and consolidating tasks [Correct]
+-------------------------------------------------------------------------
+
+2. Which is the main function of Project Eluna? (10 points)
+
+Control delivery drones
+Process payments
+Provide real-time and historical data insights in natural language [Correct]
+Train new employees
 
