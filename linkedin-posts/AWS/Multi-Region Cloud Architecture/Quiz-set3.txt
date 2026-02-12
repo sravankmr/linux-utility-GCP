@@ -118,7 +118,7 @@ For KT: https://lnkd.in/eYrNskNz
 
 64 chips [correct]
 
---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------Done^
 
 What does the principle of "least privilege access" mean in the context of S3 security? (8 points)
 
