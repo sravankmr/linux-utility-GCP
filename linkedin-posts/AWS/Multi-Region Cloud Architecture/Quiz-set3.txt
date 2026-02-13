@@ -130,9 +130,9 @@ Denying all access by default
 
 Allowing access only through VPC endpoints
 
-------------------------------------------------------------------------------
+------------------------------------------------------------------------------Done^
 
-Which encryption option is the default for all new objects uploaded to S3 buckets? (8 points)
+Which encryption option is the default for all new objects uploaded to S3 buckets? 
 
 SSE-C (Server-side encryption with customer-provided keys)
 
