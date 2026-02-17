@@ -142,7 +142,7 @@ Client-side encryption
 
 SSE-S3 (Server-side encryption with Amazon S3 managed keys) [correct]
 
---------------------------------------------------------
+--------------------------------------------------------Done^
 
 . Which AWS service provides a "Write Once Read Many" (WORM) model to help prevent accidental or inappropriate deletion of data? (8 points)
 
