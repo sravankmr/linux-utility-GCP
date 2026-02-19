@@ -154,7 +154,7 @@ S3 Object Lock [correct]
 
 S3 Lifecycle policies
 
---------------------------------------------------
+--------------------------------------------------Done^ 
 5. Which managed AWS security service uses machine learning to discover sensitive data personally identifiable information (PII) in S3 buckets? (8 points)
 
 Amazon GuardDuty
