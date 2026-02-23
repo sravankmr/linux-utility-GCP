@@ -1,0 +1,204 @@
+1. What is the recommended replacement for vSphere Host Profiles in VMware Cloud Foundation 9.0?
+
+vSphere Configuration Profiles [Correct]
+
+vSphere Auto Deploy
+
+vSphere Image Builder
+
+vSphere Distributed Switch 
+
+------------------------------------------------------
+
+2. In vSphere 9, which storage technology is deprecated and planned for complete removal in version 9.1?
+
+NVMe-oF
+
+VMFS
+
+Virtual Volumes (vVols) [correct]
+
+vSAN
+
+------------------------------------------------------
+
+3. How is unified multi-vCenter management handled in VCF 9 now that Enhanced Linked Mode (ELM) is deprecated?
+
+Single Sign-On (SSO) Federation
+
+VCF Operations [correct]
+
+vCenter Hybrid Cloud Print
+
+vSphere Trust Authority
+
+----------------------------------------------
+
+4. Why are vSphere Clustering Service (vCLS) VMs no longer required in vSphere 9?
+
+A.
+DRS and HA have been completely removed
+
+B.
+The vCenter Server now handles all agent tasks
+
+C.
+vCLS has been moved to a physical appliance
+
+D.
+Hosts use a distributed embedded key-value store [correct]
+
+--------------------------------------------------------
+
+5. Which hardware support has been entirely removed in ESX 9.0?
+
+AMD EPYC Processors
+
+Intel Optane Persistent Memory (PMEM) [correct]
+
+SATA Hard Drives
+
+NVIDIA GPU Passthrough
+
+---------------------------------------------------
+6. When using Memory Tiering in ESX 9.0, what is the recommended secondary tier for expanding RAM capacity?
+
+A.
+Virtual Tape Libraries
+
+B.
+Local NVMe devices [correct]
+
+C.
+Standard SATA SSDs
+
+D.
+Network Attached Storage (NAS)
+---------------------------------------------------
+7. Which Storage DRS (SDRS) feature remains operational in vCenter 9.0 despite other components being removed?
+
+A.
+I/O Reservations-based load balancing
+
+B.
+Storage I/O Control (SIOC) on individual datastores
+
+C.
+Space-based load balancing [correct]
+
+D.
+I/O Latency-based load balancing
+--------------------------------------------------
+8. What is the primary method for cluster updates in vSphere 9 now that VUM Baselines have been removed?
+
+A.
+Host Profile remediation
+
+B.
+Standalone ISO upgrades
+
+C.
+Manual VIB installation via CLI
+
+D.
+vLCM image-based lifecycle workflow [correct]
+---------------------------------------------------
+9. To maintain Active Directory integration in vCenter 9.0, what must administrators use instead of Integrated Windows Authentication (IWA)?
+
+A.
+Basic LDAP without SSL
+
+B.
+Local vCenter accounts only
+
+C.
+LDAPS or Identity Federation [correct]
+
+D.
+NTLMv1 Challenge-Response
+
+--------------------------------------------------
+10. How should physical servers be connected to NSX overlay networks in NSX 9?
+
+A.
+Using a standard vSwitch on the physical server
+
+B.
+Direct connection to a Distributed Switch (VDS)
+
+C.
+Installing the NSX Bare-Metal Agent
+
+D.
+L2 bridging on an NSX Edge node [correct]
+-------------------------------------------------------
+11. Which virtual switch technology is no longer supported for use on ESX hypervisors in NSX 9?
+
+A.
+N-VDS [correct]
+
+B.
+Standard vSwitch (VSS)
+
+C.
+VDS 7.0
+
+D.
+OVS (Open vSwitch) 
+----------------------------------------------------------
+12. What happened to the support for KVM hypervisors and third-party OpenStack in NSX 9?
+
+A.
+Support is limited to Ubuntu-based KVM only
+
+B.
+They are no longer supported [correct]
+
+C.
+They require a separate 'Multi-Cloud' agent
+
+D.
+They are now part of the base license 
+-----------------------------------------------------------
+13.Which legacy network platform must be migrated to NSX-T (NSX 4.x) before an upgrade to VCF 9 can occur?
+
+A.
+NSX Cloud
+
+B.
+vShield Endpoint
+
+C.
+Cisco ACI
+
+D.
+NSX for vSphere (NSX-V) [correct]
+-------------------------------------------------------------
+14. Which of the following is NOT one of the supported locales for the vSphere 9 web interface?
+
+A.
+French
+
+B.
+Spanish
+
+C.
+German [correct]
+
+D.
+Japanese
+------------------------------------------------------
+15. What tool has absorbed the functionality of the deprecated ESX Image Builder?
+
+A.
+vSphere Lifecycle Manager (vLCM) [correct]
+
+B.
+vSphere Cloud Builder
+
+C.
+vCenter Update Manager (VUM)
+
+D.
+PowerCLI Image Commands
+------------------------------------------------------
