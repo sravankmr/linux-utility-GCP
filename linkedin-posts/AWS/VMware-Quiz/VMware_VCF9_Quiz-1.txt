@@ -32,7 +32,7 @@ vCenter Hybrid Cloud Print
 
 vSphere Trust Authority
 
-----------------------------------------------
+----------------------------------------------done
 
 4. Why are vSphere Clustering Service (vCLS) VMs no longer required in vSphere 9?
 
