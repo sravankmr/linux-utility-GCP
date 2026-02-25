@@ -172,7 +172,7 @@ To replace human workers entirely
 To handle customer service inquiries
 To manage inventory tracking only
 To coordinate multiple arms for picking, stowing, and consolidating tasks [Correct]
--------------------------------------------------------------------------
+-------------------------------------------------------------------------Done
 
 2. Which is the main function of Project Eluna? (10 points)
 
@@ -180,4 +180,4 @@ Control delivery drones
 Process payments
 Provide real-time and historical data insights in natural language [Correct]
 Train new employees
-
+-----------------------------------------------------------

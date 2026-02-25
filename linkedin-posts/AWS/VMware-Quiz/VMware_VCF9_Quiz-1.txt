@@ -8,7 +8,7 @@ vSphere Image Builder
 
 vSphere Distributed Switch 
 
-------------------------------------------------------
+------------------------------------------------------done
 
 2. In vSphere 9, which storage technology is deprecated and planned for complete removal in version 9.1?
 
@@ -20,7 +20,7 @@ Virtual Volumes (vVols) [correct]
 
 vSAN
 
-------------------------------------------------------
+------------------------------------------------------done
 
 3. How is unified multi-vCenter management handled in VCF 9 now that Enhanced Linked Mode (ELM) is deprecated?
 
