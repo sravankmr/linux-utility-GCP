@@ -48,7 +48,7 @@ vCLS has been moved to a physical appliance
 D.
 Hosts use a distributed embedded key-value store [correct]
 
---------------------------------------------------------
+--------------------------------------------------------Done
 
 5. Which hardware support has been entirely removed in ESX 9.0?
 
