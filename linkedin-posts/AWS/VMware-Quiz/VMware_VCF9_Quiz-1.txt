@@ -74,7 +74,7 @@ Standard SATA SSDs
 
 D.
 Network Attached Storage (NAS)
----------------------------------------------------
+---------------------------------------------------Done
 7. Which Storage DRS (SDRS) feature remains operational in vCenter 9.0 despite other components being removed?
 
 A.
