@@ -60,7 +60,7 @@ SATA Hard Drives
 
 NVIDIA GPU Passthrough
 
----------------------------------------------------
+---------------------------------------------------Done
 6. When using Memory Tiering in ESX 9.0, what is the recommended secondary tier for expanding RAM capacity?
 
 A.
