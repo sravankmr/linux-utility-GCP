@@ -1,0 +1,144 @@
+When architecting a hybrid cloud using Azure VMware Solution (AVS), which component is primarily responsible for facilitating bulk live migrations and L2 network extensions between on-premises and Azure?
+
+A.
+VMware HCX (Hybrid Cloud Extension) [correct]
+
+B.
+vCenter Content Library
+
+C.
+Standard Azure VPN Gateway
+
+D.
+Azure ExpressRoute Global Reach
+----------------------------------------------------------
+In an NSX-managed environment, where is the Distributed Firewall (DFW) policy enforced to achieve a Zero Trust security posture?
+
+A.
+On the physical Top-of-Rack (TOR) switch
+
+B.
+At the vCenter Server Management Layer
+
+C.
+At the vNIC (Virtual Network Interface Card) level [correct]
+
+D.
+Within the NSX Edge Gateway exclusively
+----------------------------------------------------------
+What is the primary role of the SDDC Manager within a VMware Cloud Foundation (VCF) 5.0+ deployment?
+
+A.
+Replacing the need for physical TOR switch configuration
+
+B.
+Acting as a backup repository for vSAN data
+
+C.
+Automated lifecycle management and provisioning of the SDDC stack
+
+D.
+Serving as the primary console for Virtual Machine console access
+----------------------------------------------------------
+When designing a vSAN cluster for high availability, what is the impact on storage overhead if you change the 'Failures to Tolerate' setting from FTT=1 to FTT=2 using Raid-1 (Mirroring)?
+
+A.
+The storage consumption increases from 2x to 3x the size of the data [correct]
+
+B.
+The storage consumption remains the same due to deduplication
+
+C.
+The network bandwidth requirement is reduced
+
+D.
+The host count requirement decreases because of higher density
+----------------------------------------------------------------
+A Cloud Architect needs to configure a connection between an ESXi host and a SAN using iSCSI. Which configuration is essential to ensure multipathing and redundancy at the network layer?
+
+A.
+Using a single Port Group for all traffic types
+
+B.
+Assigning the iSCSI target a DHCP address
+
+C.
+Binding multiple VMkernel ports to the iSCSI Software Adapter
+
+D.
+Disabling Jumbo Frames on the physical switches
+------------------------------------------------------------------
+Which feature of the VMware Aria Suite (formerly vRealize) would be most effective for a Cloud Architect to use for identifying 'zombie' VMs and reclaiming over-provisioned resources?
+
+A.
+Aria Automation
+
+B.
+Aria Operations
+
+C.
+Aria Hub
+
+D.
+Aria Log Insight
+------------------------------------------------------------------
+When upgrading an enterprise environment from vSphere 7 to vSphere 8, which component must be upgraded first to maintain management compatibility?
+
+A.
+ESXi Hosts
+
+B.
+Virtual Hardware
+
+C.
+vCenter Server [correct]
+
+D.
+VMware Tools
+-------------------------------------------------------------
+For a VCF 9 deployment, which networking concept is critical for separating the management, overlay, and storage traffic within the SDDC stack?
+
+A.
+Flat L2 networks without segmentation
+
+B.
+VLAN-backed Port Groups and NSX Segments [correct]
+
+C.
+Removing the Distributed Virtual Switch (DVS)
+
+D.
+Relying solely on physical TOR routing
+-------------------------------------------------------------
+In a Dell VxRail environment, what is the primary advantage of using the VxRail Manager over a standard vSAN ReadyNode?
+
+A.
+Elimination of the need for vCenter Server
+
+B.
+Integrated, full-stack automated lifecycle management [correct]
+
+C.
+Support for non-VMware hypervisors
+
+D.
+Manual control over individual driver versions
+-------------------------------------------------------------
+A Python script is being developed to automate capacity reporting. If the script retrieves a VM's memory limit as 16,777,216 KB, what is the equivalent value in Gigabytes (GB)?
+
+A.
+16.7 GB
+
+B.
+160 GB
+
+C.
+1.6 GB
+
+D.
+16 GB [correct]
+
+
+
+
+

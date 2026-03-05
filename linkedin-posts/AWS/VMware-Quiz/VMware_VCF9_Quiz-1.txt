@@ -88,7 +88,7 @@ Space-based load balancing [correct]
 
 D.
 I/O Latency-based load balancing
---------------------------------------------------
+--------------------------------------------------Done
 8. What is the primary method for cluster updates in vSphere 9 now that VUM Baselines have been removed?
 
 A.
