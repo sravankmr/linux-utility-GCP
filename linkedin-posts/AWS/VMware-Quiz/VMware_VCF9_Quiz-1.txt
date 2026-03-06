@@ -102,7 +102,7 @@ Manual VIB installation via CLI
 
 D.
 vLCM image-based lifecycle workflow [correct]
----------------------------------------------------
+---------------------------------------------------Done
 9. To maintain Active Directory integration in vCenter 9.0, what must administrators use instead of Integrated Windows Authentication (IWA)?
 
 A.
