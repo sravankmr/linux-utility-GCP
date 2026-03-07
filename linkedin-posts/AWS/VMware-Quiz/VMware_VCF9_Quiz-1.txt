@@ -117,7 +117,7 @@ LDAPS or Identity Federation [correct]
 D.
 NTLMv1 Challenge-Response
 
---------------------------------------------------
+--------------------------------------------------Done
 10. How should physical servers be connected to NSX overlay networks in NSX 9?
 
 A.
