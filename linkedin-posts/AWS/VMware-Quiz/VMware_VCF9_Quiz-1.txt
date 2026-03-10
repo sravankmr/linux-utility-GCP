@@ -131,7 +131,7 @@ Installing the NSX Bare-Metal Agent
 
 D.
 L2 bridging on an NSX Edge node [correct]
--------------------------------------------------------
+-------------------------------------------------------Done
 11. Which virtual switch technology is no longer supported for use on ESX hypervisors in NSX 9?
 
 A.
@@ -145,7 +145,7 @@ VDS 7.0
 
 D.
 OVS (Open vSwitch) 
-----------------------------------------------------------
+----------------------------------------------------------Done
 12. What happened to the support for KVM hypervisors and third-party OpenStack in NSX 9?
 
 A.
