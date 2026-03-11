@@ -159,7 +159,7 @@ They require a separate 'Multi-Cloud' agent
 
 D.
 They are now part of the base license 
------------------------------------------------------------
+-----------------------------------------------------------Done
 13.Which legacy network platform must be migrated to NSX-T (NSX 4.x) before an upgrade to VCF 9 can occur?
 
 A.
