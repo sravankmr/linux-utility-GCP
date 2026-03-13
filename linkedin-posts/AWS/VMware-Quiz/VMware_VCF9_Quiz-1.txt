@@ -173,7 +173,7 @@ Cisco ACI
 
 D.
 NSX for vSphere (NSX-V) [correct]
--------------------------------------------------------------
+-------------------------------------------------------------Done
 14. Which of the following is NOT one of the supported locales for the vSphere 9 web interface?
 
 A.
