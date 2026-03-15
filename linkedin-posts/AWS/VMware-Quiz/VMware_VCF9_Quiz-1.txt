@@ -187,7 +187,7 @@ German [correct]
 
 D.
 Japanese
-------------------------------------------------------
+------------------------------------------------------Done
 15. What tool has absorbed the functionality of the deprecated ESX Image Builder?
 
 A.
