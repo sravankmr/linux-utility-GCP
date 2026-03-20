@@ -25,7 +25,7 @@ At the vNIC (Virtual Network Interface Card) level [correct]
 
 D.
 Within the NSX Edge Gateway exclusively
-----------------------------------------------------------
+----------------------------------------------------------Done
 What is the primary role of the SDDC Manager within a VMware Cloud Foundation (VCF) 5.0+ deployment?
 
 A.
