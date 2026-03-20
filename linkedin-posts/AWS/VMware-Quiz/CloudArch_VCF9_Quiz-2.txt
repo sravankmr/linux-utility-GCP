@@ -11,7 +11,7 @@ Standard Azure VPN Gateway
 
 D.
 Azure ExpressRoute Global Reach
-----------------------------------------------------------
+----------------------------------------------------------Done
 In an NSX-managed environment, where is the Distributed Firewall (DFW) policy enforced to achieve a Zero Trust security posture?
 
 A.
