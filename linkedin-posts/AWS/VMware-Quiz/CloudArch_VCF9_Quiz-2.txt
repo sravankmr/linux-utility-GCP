@@ -35,7 +35,7 @@ B.
 Acting as a backup repository for vSAN data
 
 C.
-Automated lifecycle management and provisioning of the SDDC stack
+Automated lifecycle management and provisioning of the SDDC stack [Correct]
 
 D.
 Serving as the primary console for Virtual Machine console access
