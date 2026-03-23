@@ -39,7 +39,7 @@ Automated lifecycle management and provisioning of the SDDC stack [Correct]
 
 D.
 Serving as the primary console for Virtual Machine console access
-----------------------------------------------------------
+----------------------------------------------------------Done
 When designing a vSAN cluster for high availability, what is the impact on storage overhead if you change the 'Failures to Tolerate' setting from FTT=1 to FTT=2 using Raid-1 (Mirroring)?
 
 A.
@@ -53,7 +53,7 @@ The network bandwidth requirement is reduced
 
 D.
 The host count requirement decreases because of higher density
-----------------------------------------------------------------
+----------------------------------------------------------------Done
 A Cloud Architect needs to configure a connection between an ESXi host and a SAN using iSCSI. Which configuration is essential to ensure multipathing and redundancy at the network layer?
 
 A.
