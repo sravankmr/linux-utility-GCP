@@ -63,11 +63,11 @@ B.
 Assigning the iSCSI target a DHCP address
 
 C.
-Binding multiple VMkernel ports to the iSCSI Software Adapter
+Binding multiple VMkernel ports to the iSCSI Software Adapter [correct]
 
 D.
 Disabling Jumbo Frames on the physical switches
-------------------------------------------------------------------
+------------------------------------------------------------------Done
 Which feature of the VMware Aria Suite (formerly vRealize) would be most effective for a Cloud Architect to use for identifying 'zombie' VMs and reclaiming over-provisioned resources?
 
 A.
@@ -137,8 +137,142 @@ C.
 
 D.
 16 GB [correct]
+-------------------------------------------------------------
+What is the minimum version of VMware Cloud Foundation (VCF) an environment must be running to perform a direct upgrade to VCF 9?
 
+VCF 4.0
 
+VCF 4.5
 
+VCF 3.9
+
+VCF 5.x [correct]
+---------------------------------------------------------------
+In the VCF 9 architecture, what does the new 'Fleet' construct represent?
+
+A.
+A unified automation and operations instance managing one or more VCF instances. [correct]
+
+B.
+A cluster of SDDC Managers across different physical locations.
+
+C.
+A specialized network topology for stretched clusters.
+
+D.
+A group of ESXi hosts dedicated solely to AI workloads.
+---------------------------------------------------------------------
+Which component must be updated to version 8.18 (or 8.18 Patch 2 for lifecycle management) before the core VCF 9 upgrade is permitted?
+
+A.
+SDDC Manager
+
+B.
+Aria/VCF Operations [correct]
+
+C.
+vCenter Server
+
+D.
+NSX-T Manager
+----------------------------------------------------------------------
+Why is a temporary IP address required during the upgrade of the vCenter Server to VCF 9?
+
+A.
+To allow for parallel management by both SDDC Manager and VCF Operations.
+
+B.
+To bypass the NSX Edge cluster during the migration.
+
+C.
+To provide a permanent secondary management interface.
+
+D.
+To facilitate a Reduced Downtime Upgrade (RDU) process.
+------------------------------------------------------------------
+Which legacy ESXi lifecycle management method is no longer supported in VCF 9?
+
+A.
+Asynchronous patching
+
+B.
+Image-based updates
+
+C.
+Manual CLI VIB installation
+
+D.
+Baseline-based updates [correct]
+-------------------------------------------------------------------
+As VCF 9 evolves, what is the planned future for the functions currently held by SDDC Manager (such as licensing and certificate management)?
+
+A.
+They will be replaced by a new standalone 'License Manager' appliance.
+
+B.
+They will be fully integrated into the VCF Operations console. [correct]
+
+C.
+They will be decentralized and managed individually on each ESXi host.
+
+D.
+They will be moved to the physical Top-of-Rack switches.
+-----------------------------------------------------------------------
+According to the 'Management Domain Deployment Blueprint,' which of the following is considered an 'Out-of-Scope' activity?
+
+A.
+Deployment of the VCF 9 Management Domain.
+
+B.
+Migration of existing workloads into VCF 9. [correct]
+
+C.
+Validation of hardware compatibility.
+
+D.
+Configuration of vCenter Server and SDDC Manager.
+------------------------------------------------------------------
+What significant networking capability has been added to the VCF 9 Installer compared to previous versions like Cloud Builder?
+
+A.
+Elimination of the need for VLANs in the Management Domain.
+
+B.
+The ability to import pre-existing NSX environments. [correct]
+
+C.
+Support for legacy NSX-V topologies.
+
+D.
+Automatic configuration of physical BGP peering.
+----------------------------------------------------------------------
+What is the recommended method for professional services to deploy the VCF Operations appliances in a post-upgrade scenario to ensure efficiency and automation?
+
+A.
+Running a Python script from the ESXi Shell.
+
+B.
+Manual OVF deployment via the vSphere Client.
+
+C.
+Cloning existing appliances from a template library.
+
+D.
+Using the SDDC Manager Developer Center to execute a POST API call.
+-------------------------------------------------------------------------
+How has licensing changed in VMware Cloud Foundation 9 compared to older perpetual models?
+
+A.
+Licenses are exclusively subscription-based and managed through VCF Operations.[correct]
+
+B.
+Perpetual keys are automatically converted by the ESXi hosts.
+
+C.
+Licensing has been removed in favor of a flat-fee hardware bundle.
+
+D.
+Licenses are now tied to physical CPU sockets only.
+-------------------------------------------------------------------------
 
 
