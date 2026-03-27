@@ -74,14 +74,14 @@ A.
 Aria Automation
 
 B.
-Aria Operations
+Aria Operations [correct]
 
 C.
 Aria Hub
 
 D.
 Aria Log Insight
-------------------------------------------------------------------
+------------------------------------------------------------------Done
 When upgrading an enterprise environment from vSphere 7 to vSphere 8, which component must be upgraded first to maintain management compatibility?
 
 A.
@@ -95,7 +95,7 @@ vCenter Server [correct]
 
 D.
 VMware Tools
--------------------------------------------------------------
+-------------------------------------------------------------Done
 For a VCF 9 deployment, which networking concept is critical for separating the management, overlay, and storage traffic within the SDDC stack?
 
 A.
@@ -109,7 +109,7 @@ Removing the Distributed Virtual Switch (DVS)
 
 D.
 Relying solely on physical TOR routing
--------------------------------------------------------------
+-------------------------------------------------------------Done
 In a Dell VxRail environment, what is the primary advantage of using the VxRail Manager over a standard vSAN ReadyNode?
 
 A.
