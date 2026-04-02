@@ -137,7 +137,7 @@ C.
 
 D.
 16 GB [correct]
--------------------------------------------------------------
+-------------------------------------------------------------Done
 What is the minimum version of VMware Cloud Foundation (VCF) an environment must be running to perform a direct upgrade to VCF 9?
 
 VCF 4.0
