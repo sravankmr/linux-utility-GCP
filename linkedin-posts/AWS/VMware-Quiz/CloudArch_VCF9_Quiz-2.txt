@@ -147,7 +147,7 @@ VCF 4.5
 VCF 3.9
 
 VCF 5.x [correct]
----------------------------------------------------------------
+---------------------------------------------------------------Done
 In the VCF 9 architecture, what does the new 'Fleet' construct represent?
 
 A.
