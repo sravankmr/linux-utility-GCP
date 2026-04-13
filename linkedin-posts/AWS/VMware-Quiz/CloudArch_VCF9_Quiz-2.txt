@@ -161,7 +161,7 @@ A specialized network topology for stretched clusters.
 
 D.
 A group of ESXi hosts dedicated solely to AI workloads.
----------------------------------------------------------------------
+---------------------------------------------------------------------Done
 Which component must be updated to version 8.18 (or 8.18 Patch 2 for lifecycle management) before the core VCF 9 upgrade is permitted?
 
 A.
