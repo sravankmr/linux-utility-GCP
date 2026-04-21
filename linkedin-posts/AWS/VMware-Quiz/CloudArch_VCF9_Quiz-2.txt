@@ -175,7 +175,7 @@ vCenter Server
 
 D.
 NSX-T Manager
-----------------------------------------------------------------------
+----------------------------------------------------------------------Done
 Why is a temporary IP address required during the upgrade of the vCenter Server to VCF 9?
 
 A.
